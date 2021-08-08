@@ -6,7 +6,7 @@ namespace FirstTimeExperience_C_Sharp.tutorial
 {
     class DataTypes
     {
-        public int playWithDataTypes()
+        public int PlayWithDataTypes()
         {
             /* local variable declaration */
 

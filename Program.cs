@@ -12,7 +12,7 @@ namespace FirstTimeExperience_C_Sharp
             Console.WriteLine("namespaces and grouping classes!");
 
             DataTypes dataTypes = new DataTypes();
-            dataTypes.playWithDataTypes();
+            dataTypes.PlayWithDataTypes();
 
 
             return ; 
