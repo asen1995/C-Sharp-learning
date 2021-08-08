@@ -6,7 +6,7 @@ namespace FirstTimeExperience_C_Sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("namespaces and grouping classes!");
         }
     }
 }
