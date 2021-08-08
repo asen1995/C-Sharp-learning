@@ -7,13 +7,12 @@ namespace FirstTimeExperience_C_Sharp
     {
         static void Main(string[] args)
         {
-          
 
-            Console.WriteLine("namespaces and grouping classes!");
 
-            DataTypes dataTypes = new DataTypes();
-            dataTypes.PlayWithDataTypes();
+            // DataTypes dataTypes = new DataTypes();
+            // dataTypes.PlayWithDataTypes();
 
+            Console.WriteLine(WeekDaysMethods.WhatDayIsIt(WeekDays.SUNDAY));
 
             return ; 
 
