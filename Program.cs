@@ -1,4 +1,5 @@
 ﻿using System;
+using FirstTimeExperience_C_Sharp.model;
 using FirstTimeExperience_C_Sharp.tutorial;
 
 namespace FirstTimeExperience_C_Sharp
@@ -15,11 +16,19 @@ namespace FirstTimeExperience_C_Sharp
             // Console.WriteLine(WeekDaysMethods.WhatDayIsIt(WeekDays.SUNDAY));
 
 
-            AbstractCarInheritence abstractCarInheritence = AbstractCarInheritence.createMazda();
+            /*AbstractCarInheritence abstractCarInheritence = AbstractCarInheritence.createMazda();
             AbstractCarInheritence abstractCarInheritence2 = AbstractCarInheritence.createFerrari();
 
             Console.WriteLine(abstractCarInheritence.whatCarIsThat());
-            Console.WriteLine(abstractCarInheritence2.whatCarIsThat());     
+            Console.WriteLine(abstractCarInheritence2.whatCarIsThat());*/
+
+
+            User user = new SystemUser();
+            User user2 = new HR();
+            Console.WriteLine(user.typeOfUserAsString());
+            Console.WriteLine(user2.typeOfUserAsString());
+
+
 
             return; 
 
