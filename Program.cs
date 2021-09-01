@@ -2,6 +2,7 @@
 using System.Collections;
 using FirstTimeExperience_C_Sharp.model;
 using FirstTimeExperience_C_Sharp.tutorial;
+using FirstTimeExperience_C_Sharp.multithreading;
 
 namespace FirstTimeExperience_C_Sharp
 {
@@ -29,18 +30,21 @@ namespace FirstTimeExperience_C_Sharp
             Console.WriteLine(user.typeOfUserAsString());
             Console.WriteLine(user2.typeOfUserAsString());*/
 
-            Hashtable hashtable =
-                Collections.CreateHashTable(new string[] { "asen", "victor", "petur" });
-            Console.WriteLine("map is : " + hashtable);
+            /* Hashtable hashtable =
+                 Collections.CreateHashTable(new string[] { "asen", "victor", "petur" });
+             Console.WriteLine("map is : " + hashtable);
 
-            if (hashtable.ContainsKey("asen"))
-            {
-                Console.WriteLine("contains asen");
-            }else
-            {
-                Console.WriteLine("don't contains asen");
+             if (hashtable.ContainsKey("asen"))
+             {
+                 Console.WriteLine("contains asen");
+             }else
+             {
+                 Console.WriteLine("don't contains asen");
 
-            } 
+             } 
+ */
+
+            MultiThreadingDemo.startMultiThreadingDemo();
 
             return; 
 
